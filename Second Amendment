@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNKc32CBRuobVQk5qYVedcB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/123moha3ed/item_total_calculator/blob/main/Second%20Amendment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Item calculator"
+      ],
+      "metadata": {
+        "id": "wPM6x04V6Ly5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wxPku4NB51uR",
+        "outputId": "739a3f82-ed36-4b84-9a23-bb4553024067"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "total: 55\n",
+            "the rest: 45\n"
+          ]
+        }
+      ],
+      "source": [
+        "amount_item1 = 2\n",
+        "amount_item2 = 5\n",
+        "amount_item3 = 9\n",
+        "\n",
+        "item1_cost = 2\n",
+        "item2_cost = 3\n",
+        "item3_cost = 4\n",
+        "\n",
+        "item1_price = amount_item1 * item1_cost\n",
+        "item2_price = amount_item2 * item2_cost\n",
+        "item3_price = amount_item3 * item3_cost\n",
+        "\n",
+        "total = item1_price + item2_price + item3_price\n",
+        "\n",
+        "print(f\"total: {total}\")\n",
+        "\n",
+        "budget = 100\n",
+        "\n",
+        "print(f\"the rest: {budget-total}\")"
+      ]
+    }
+  ]
+}
